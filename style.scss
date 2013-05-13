@@ -424,7 +424,7 @@ ol.commentlist {
 
 
 .site-sidebar {
-  padding: 3em 0 10px 0;
+  padding: 3em 0 10px 2%;
 
   .widget {
     margin-bottom: 3em;
@@ -508,6 +508,8 @@ ol.commentlist {
   }
 }
 
+
+
 /*
 /*	WIDE
 /*---------------------------------------------------------------------------------------- */
@@ -540,55 +542,14 @@ ol.commentlist {
 
 /* WIDE: Main */
 
-  #main {
-    background: #fefefe url(img/bg-stacked-circles.png);
-  }
-
   .content-area {
     float: left;
-    width: 66%;
-  }
-
-  .site-content {
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.1);
-    padding: 2em;    
-    position: relative;
-    z-index: 50;
-
-    @include box-sizing(border-box);
+    width: 57.5%;
   }
 
   #secondary {
     float: right;
-    position: relative;
-    width: 34%;
-    position: relative;
-    z-index: 0;
-
-    .widget {
-      background: desaturate(lighten($primary, 25%), 5%);
-      margin: 1em 0;
-      padding: 1em 1em 1em 5%;
-      position: relative;
-
-      @include box-sizing(border-box);
-    }
-
-    .widget-title {
-      color: $accent;
-    }
-
-    .widget:after {
-      background: url(img/bg-tab-drop.png) top right no-repeat;
-      content: '';
-      height: 20px;
-      position: absolute;
-      bottom: -20px;
-      left: 0;
-      width: 100%;
-    }
+    width: 32%;
   }
 
 	/* WIDE: Footer */
