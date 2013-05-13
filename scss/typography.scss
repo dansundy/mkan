@@ -1,0 +1,31 @@
+/* =Typography
+/*---------------------------------------------*/
+
+@font-face {
+    font-family: 'Museo';
+    src: url('fonts/museo700-regular-webfont.eot');
+    src: url('fonts/museo700-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo700-regular-webfont.woff') format('woff'),
+         url('fonts/museo700-regular-webfont.ttf') format('truetype'),
+         url('fonts/museo700-regular-webfont.svg#museo700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('fonts/Pacifico-webfont.eot');
+    src: url('fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Pacifico-webfont.woff') format('woff'),
+         url('fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$body-text: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header: "Museo", $body-text;
+$script: "PacificoRegular", $body-text;
